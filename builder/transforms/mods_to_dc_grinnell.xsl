@@ -20,7 +20,6 @@
   </xsl:function>
   -->
 
-
   <!--
   This stylesheet transforms MODS version 3.2 records and collections of records to simple Dublin Core (DC) records,
   based on the Library of Congress' MODS to simple DC mapping <http://www.loc.gov/standards/mods/mods-dcsimple.html>
@@ -579,8 +578,6 @@
 
   <!-- suppress all else:-->
   <xsl:template match="*"/>
-
-
 
 </xsl:stylesheet>
 
